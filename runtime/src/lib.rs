@@ -418,7 +418,7 @@ construct_runtime!(
 		// Include the custom logic from the pallet-template in the runtime.
 		TemplateModule: pallet_template::{Module, Call, Storage, Event<T>},
 		Contracts: pallet_contracts::{Module, Call, Config<T>, Storage, Event<T>},
-		callcontracts:callcontracts::{Module, Call, Storage, Event<T>,ValidateUnsigned},
+		Callcontracts:callcontracts::{Module, Call, Storage, Event<T>,ValidateUnsigned},
 	}
 );
 
